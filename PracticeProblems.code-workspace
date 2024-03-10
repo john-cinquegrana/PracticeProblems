@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"psi-header.variables": [
+			["remotename", "PracticeProblems"],
+			["remoteurl", "https://github.com/john-cinquegrana/PracticeProblems"],
+			["projectname", "Practice Problems"],
+		]
+	}
+}
