@@ -43,6 +43,14 @@ matrix3 = np.asarray([
 ])
 
 def find_num(mat, key):
+    '''
+    Given a matrix where both rows and columns are sorted, find the index of a
+    given number. If the number is not in the matrix, return (-1, -1).
+
+    We perform this in O(log n) time by first performing a binary search across
+    the major diagonal of the matrix, and then subsequent binary searches
+    across a single row/column.
+    '''
     # Get the width and height of the matrix
     height = len(mat)
     width = len(mat[0])
