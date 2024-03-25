@@ -17,8 +17,6 @@ __author__		=	"John Cinquegrana"
 __copyright__	=	"Copyright 2024 John Cinquegrana (alllegron@gmail.com)"
 
 
-
-import random
 import numpy as np
 
 # Matrix 1
