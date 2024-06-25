@@ -13,6 +13,9 @@ https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
 __author__		=	"John Cinquegrana"
 __copyright__	=	"Copyright 2024 John Cinquegrana (alllegron@gmail.com)"
 
+from typing import List
+
+
 class Solution:
     def maxSumSubmatrix(self, matrix: List[List[int]], k: int) -> int:
         # TODO
